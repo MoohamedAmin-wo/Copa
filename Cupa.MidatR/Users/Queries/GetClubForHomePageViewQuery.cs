@@ -1,0 +1,2 @@
+﻿namespace Cupa.MidatR.Users.Queries;
+public sealed class GetClubForHomePageViewQuery(bool forHome) : IRequest<IReadOnlyCollection<ClubForHomePageQueryModelDTO>> { public bool ForHome { get; } = forHome; }
